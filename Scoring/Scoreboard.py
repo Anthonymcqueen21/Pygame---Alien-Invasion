@@ -31,8 +31,7 @@ class Scoreboard():
     self.score_rect = self.score_image.get_rect()
     self.score_rect.right = self.screen_rect.right - 20
     self.score_rect.top = 20
-    
-  def show_score(self):
+def show_score(self):
     """Draw score to the screen."""
     self.screen.blit(self.score_image, self.score_rect)
     self.screen.blit(self.high_score_image, self.high_score_rect)
