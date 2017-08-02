@@ -17,10 +17,10 @@ def ship_hit(ai_settings, stats, screen, ship, aliens, bullets):
   # Decrement ships_left.
   stats.ships_left -= 1
   
-  # Update scoreboard.
+ # Update scoreboard.
   sb.prep_ships()
   
-  # Empty the list of aliens and bullets.
+ # Empty the list of aliens and bullets.
   aliens.empty()
   bullets.empty()
   
