@@ -8,8 +8,8 @@ import pygame
 def check_high_score(stats, sb):
   """Check to see if there a new high score."""
   if stats.score > stats.high_score:
-    stats_high_score = stats.score
-    sb.prep_high_score()
+   stats_high_score = stats.score
+   sb.prep_high_score()
 
 def ship_hit(ai_settings, stats, screen, ship, aliens, bullets):
   """Respond to ship being hit by alien."""
