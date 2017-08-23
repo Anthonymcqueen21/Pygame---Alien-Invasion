@@ -1,7 +1,7 @@
 class Settings():
   """A class to store all settings for Alien Invasion."""
   
-  def __init__(self):
+ def __init__(self):
     """Initialize the game's settings."""
     # Screen settings
     self.screen_width = 1200
@@ -17,7 +17,7 @@ class Settings():
     # How quickly the alien point values increase
     self.score_scale = 1.5
     
-    self.initialize_dynamic_settings(self):
+   self.initialize_dynamic_settings(self):
       """Increase speed settings and alien point values."""
       """Initialize settings that change throughout the game."""
       self.ship_speed_factor *= self.speedup_scale
@@ -28,7 +28,7 @@ class Settings():
       
     self.alien_points = int(self.alien_points * self.score_scale)
     
-    def increase_speed(self):
+   def increase_speed(self):
       self.alien_points = int(self.alien_points * self.score_scale)
       print(self.alien_points)
     
