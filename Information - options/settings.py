@@ -20,6 +20,7 @@ class Settings():
    self.initialize_dynamic_settings(self):
       """Increase speed settings and alien point values."""
       """Initialize settings that change throughout the game."""
+      
       self.ship_speed_factor *= self.speedup_scale
       self.bullet_speed_factor *= self.speedup_scale
       self.alien_speed_factor *= self.speedup_scale
