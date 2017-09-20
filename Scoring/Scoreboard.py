@@ -9,6 +9,7 @@ class Scoreboard():
       self.screen_rect = screen.get_rect()
       self.ai_settings = ai_settings
       self.stats = stats
+      
       # Font settings for scoring information.
       self text_color = (30, 30, 30)
       self.font = pygame.font.SysFont(None, 48)
