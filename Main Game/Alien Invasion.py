@@ -6,6 +6,7 @@ from alien import Alien
 import pygame
 
 def check_high_score(stats, sb):
+  
   """Check to see if there a new high score."""
   if stats.score > stats.high_score:
    stats_high_score = stats.score
