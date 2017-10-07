@@ -3,6 +3,7 @@ class GameStats():
   
  def __init__(self, ai_settings):
     """Inititialize statistics."""
+    # Start the ai settings
     self.ai_settings = ai_settings
     self.reset_stats()
     # Start game in an inactive state.
