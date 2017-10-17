@@ -6,4 +6,6 @@ The game intails the space craft to shoot down incoming aliens and the counter k
 
 If alien encounters and shoots the player points get deducted.
 
+- The game is a standard shooter where the player tries to avoid the lasers and fight back and get doubled the points.
+
 
