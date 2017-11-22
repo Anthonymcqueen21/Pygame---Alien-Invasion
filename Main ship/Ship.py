@@ -27,8 +27,7 @@ class Ship():
     self.rect.bottom = self.screen_rect.bottom
     
     # Movement flag
-    self.moving_right = False
-    
+    self.moving_right = False 
     self.moving_left = False
     
   def update(self):
