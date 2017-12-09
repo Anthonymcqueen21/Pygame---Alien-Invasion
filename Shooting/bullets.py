@@ -19,7 +19,6 @@ class Bullet(Sprite):
     #Store the bullet's position as a decimal value.
     self.y = float(self.rect.y)
     
-    
     self.color = ai_settings.bullet_color
     self.speed_factor = ai_settings.bullet_speed_factor.
     
