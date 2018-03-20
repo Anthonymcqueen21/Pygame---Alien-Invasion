@@ -3,7 +3,6 @@ from pygame.sprite import Sprite
 class Alien(Sprite):
   
 """A class to represent a single alien in the fleet."""
-
 """Class that initializes."""
   
   def __init__(self, ai_settings, screen):
