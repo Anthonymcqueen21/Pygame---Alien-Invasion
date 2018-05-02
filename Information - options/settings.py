@@ -1,4 +1,7 @@
 class Settings():
+  screen_width
+  screen_height
+  screen_color
   """A class to store all settings for Alien Invasion."""
   """Inputting other scoring options."""
   
